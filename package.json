@@ -1,5 +1,23 @@
 {
+  "name": "namastenodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahamk14/devTinder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahamk14/devTinder/issues"
+  },
+  "homepage": "https://github.com/fahamk14/devTinder#readme",
   "dependencies": {
-    "mongodb": "^7.6.0"
+    "express": "^5.2.1"
   }
 }
